@@ -1,0 +1,16 @@
+{
+  "name": "streamdataio-nodejs",
+  "version": "1.0.0",
+  "description": "Simple node.js app using streamdata.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache 2 License",
+  "dependencies": {
+    "eventsource": "^0.1.6",
+    "fast-json-patch": "^0.5.4"
+  }
+}
