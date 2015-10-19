@@ -19,3 +19,8 @@
   ```  
 
 You should see data and patches pushed in your application and displayed on your terminal.
+
+you can use the provided demo example API which simulates updating stocks prices from a financial market:
+'http://demo-streamdataio.rhcloud.com/stockmarket/prices'
+
+Feel free to test it with any REST/Json API of your choice.
