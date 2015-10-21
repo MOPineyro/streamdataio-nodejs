@@ -6,13 +6,15 @@
 
 2. Edit server.js and replace ```[YOUR_STREAMDATAIO_APP_TOKEN]``` with your App token.
 
-3. Install node dependencies by running in a terminal:
+3. Make sure you have Node version 0.11.5 or later installed
+
+4. Install node dependencies by running in a terminal:
 
   ```
   npm install
   ```
 
-4. Launch node in a terminal:
+5. Launch node in a terminal:
 
   ```
   node server.js
