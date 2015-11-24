@@ -16,7 +16,7 @@ function server() {
 
     // targetUrl is the JSON API you wish to stream
 	// you can use this example API which simulates updating stocks prices from a financial market
-    var targetUrl = 'http://demo-streamdataio.rhcloud.com/stockmarket/prices';
+    var targetUrl = 'http://stockmarket.streamdata.io/prices';
 
 	// appToken is the way Streamdata.io authenticates you as a valid user.
 	// you MUST provide a valid token for your request to go through.
