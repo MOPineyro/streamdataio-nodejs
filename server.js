@@ -49,7 +49,7 @@ function server() {
     eventSource.addEventListener('data', function(e) {
       console.log("data: \n" + e.data);
       // memorize the fresh data set
-      data = e.data;
+      data = JSON.parse(e.data);
     });
 
 	// the streamdata.io specific 'patch' event will be called when a fresh Json patch 
